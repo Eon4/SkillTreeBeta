@@ -18,15 +18,11 @@ const ShowMeTheSkillTree = ({ projects }) => {
     return (
       <li key={project.id} className={style.projectItem} onClick={() => handleImageClick(project)}>
         <div>
-        <strong>{project.name}</strong>
+        {/* <strong>{project.name}</strong> */}
 
           <img src={project.image} alt={project.name} className={style.projectImage} />
         </div>
-        {/* {project.children.length > 0 && (
-          <ul>
-            {project.children.map((child) => renderProject(child))}
-          </ul>
-        )} */}
+      
       </li>
     );
   };

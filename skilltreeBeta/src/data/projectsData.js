@@ -1,5 +1,6 @@
 //projectData.js
 import project1Image from '../assets/img/bearcheese08.jpg';
+import love from '../assets/img/love.jpg';
 
 
 export const projects = [
@@ -11,6 +12,13 @@ export const projects = [
       link: 'http://example.com',
       children: []
     },
-    // Add more projects as needed
-  ];
+    {
+        id: 2,
+        name: 'Project 2',
+        description: 'Description of Project 2',
+        image: love,
+        link: 'http://example.com',
+        children: []
+      },  ];
   
+
