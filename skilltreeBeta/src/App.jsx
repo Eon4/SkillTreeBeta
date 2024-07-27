@@ -1,14 +1,17 @@
-import { useState } from 'react'
 
-import './App.css'
+import './App.css';
+import ShowMeTheSkillTree from './components/SkillTree/ShowMeTheSkillTree';
+import { projects } from './data/projectsData';
+
 
 function App() {
-
+  
   return (
-    <>
-    <h2>Hello world</h2>
-    </>
-  )
+    <div className="App">
+      <h2>Hello world. Let's build the skill tree</h2>
+      <ShowMeTheSkillTree projects={projects} />
+    </div>
+  );
 }
 
-export default App
+export default App;

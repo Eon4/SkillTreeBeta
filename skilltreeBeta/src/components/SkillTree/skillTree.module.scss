@@ -1,0 +1,24 @@
+
+.projectTree {
+  padding: 20px;
+}
+
+.projectItem {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  list-style-type: none;
+
+
+  // & > div {
+  //   margin-bottom: 10px;
+  // }
+}
+
+.projectImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
